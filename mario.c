@@ -11,7 +11,7 @@ int main (void)
        printf("Height: ");
        scanf("%i", i);
     }
-    while (i < 1 || i > 8);
+    while (i <= 1 || i >= 8);
     
     for (int k = 0; k < i; k++)
     {
